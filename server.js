@@ -38,6 +38,9 @@ const customerSchema = new mongoose.Schema({
 const Customer = mongoose.model('Customer', customerSchema);
 
 // Route to get all items
+app.get('/',(req,res)=>{
+  res.send("Background running perfectly")
+})
 app.get('/api/items', async (req, res) => {
   try {
     const items = await Item.find();
