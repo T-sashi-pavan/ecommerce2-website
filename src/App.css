@@ -1,0 +1,88 @@
+.App {
+  text-align: center;
+}
+#r1,#r2{
+  background-color:rgb(233, 0, 0);
+}
+#c1,#c11{
+  background-color: rgb(255, 255, 255);
+  margin-top: 0.5%;
+}
+#c1{
+  padding-top: 2%;
+}
+#c2{
+  margin-top: 1%;margin-bottom: 1%;
+  padding-left: 35%;
+}
+.icon-container2 {
+  position: fixed;
+  bottom: 80px; 
+  right: 1450px;  
+  z-index: 1000; 
+}
+
+.icon1 {
+  background: dodgerblue;
+  border: none;
+  border-radius: 50% ;
+  padding: 15px;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+  cursor: pointer;
+}
+
+.icon-container2:hover .tooltip {
+  visibility: visible; 
+  opacity: 1;
+}
+
+
+
+.icon-container3 {
+  position: fixed;
+  bottom: 20px; 
+  right: 1450px;  
+  z-index: 1000; 
+}
+
+.icon2 {
+  background: seagreen;
+  border: none;
+  border-radius: 50% ;
+  padding: 15px;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+  cursor: pointer;
+}
+
+.tooltip {
+  font-size: 20px;
+  visibility: hidden; 
+  width: 300px; 
+  height: 150%;
+  background-color:red; 
+  color: white; 
+  text-align: center; 
+  border-radius: 15px; 
+  padding: 9px; 
+  position: absolute; 
+  z-index: 1; 
+  bottom: 100%; 
+  left: 100%; 
+  transform: translateY(80%); 
+  
+}
+
+.icon-container3:hover .tooltip {
+  visibility: visible; 
+  opacity: 1;
+}

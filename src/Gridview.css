@@ -1,0 +1,41 @@
+#sc1{
+  background-color: rgb(105, 23, 23);
+  color: white;
+  text-align: center;
+  margin:2px;
+  padding-top: 12px;
+  padding-bottom: 10px;
+}
+#sc21,#sc22,#sc23,#sc24{
+  background-color: rgb(240, 232, 121);
+  height: 150px;
+  margin-top: 1%;
+}
+#sc{
+  background-color: red;
+}
+#sc22{
+  padding-top:2%;padding-left: 1%;
+}
+
+#sc24{
+  padding-right: 1%;
+  margin-right: 1px;
+  width: 6%;
+}
+#am{
+  margin-left: 2%;
+  margin-bottom: 1%;
+  margin-top: 80%;
+  
+}
+#am1{
+  margin-top: 40%;
+  margin-left: 45%;
+}
+#sc23{
+  width: 16%;
+}
+#sc21{
+  margin-left: 1%;
+}
